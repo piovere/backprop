@@ -17,3 +17,4 @@ I think I understand the math, but I am doing this to prove it to myself.
 - [ ] Documentation!
 - [ ] Test coverage
 - [ ] Deployment
+- [ ] Add defensive tests for bad input
