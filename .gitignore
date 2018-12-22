@@ -6,3 +6,4 @@
 
 # Easily regenerated locally
 htmlcov/
+.coverage
