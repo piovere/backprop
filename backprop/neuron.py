@@ -11,4 +11,5 @@ class Neuron():
         return self.transfer(o)
     
     def transfer(self, x):
-        return np.exp(x) / (np.exp(x) + 1)
+        # return np.exp(x) / (np.exp(x) + 1)
+        return x
