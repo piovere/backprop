@@ -1,2 +1,8 @@
 # Don't add compiled pyc files
 *.pyc
+
+# Mac folder file
+.DS_Store
+
+# Easily regenerated locally
+htmlcov/
