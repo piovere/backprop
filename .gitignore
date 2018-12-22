@@ -7,3 +7,6 @@
 # Easily regenerated locally
 htmlcov/
 .coverage
+
+# Editor config
+.vscode/settings.json
