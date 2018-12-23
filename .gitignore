@@ -14,3 +14,6 @@ htmlcov/
 
 # Windows build files
 backprop.egg-info/
+
+# Test results
+.pytest_cache/
