@@ -10,3 +10,7 @@ htmlcov/
 
 # Editor config
 .vscode/settings.json
+.vscode/launch.json
+
+# Windows build files
+backprop.egg-info/
