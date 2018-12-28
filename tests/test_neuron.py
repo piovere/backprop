@@ -26,3 +26,14 @@ def test_neuron_multiplication(test_inp, out):
     n._weights = np.ones(4)
 
     assert n.predict(test_inp) == out
+
+
+def test_neuron_can_calculate_error():
+    n = Neuron(5)
+    n._weights = np.ones(5)
+    n._bias = 1.0
+
+    x = np.ones(5)
+    y = 6.0
+    
+    assert n.error(x, y) == 0.0
