@@ -13,3 +13,9 @@ class Neuron():
     def transfer(self, x):
         # return np.exp(x) / (np.exp(x) + 1)
         return x
+    
+    def error(self, x, y):
+        return y - self.predict(x)
+
+    def update(self, x, y):
+        e = self.error(x, y)
