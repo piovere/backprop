@@ -10,3 +10,6 @@ htmlcov/
 
 # Editor config
 .vscode/settings.json
+
+# Jupyter
+.ipynb_checkpoints/
