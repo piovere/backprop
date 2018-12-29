@@ -9,7 +9,13 @@ htmlcov/
 .coverage
 
 # Editor config
-.vscode/settings.json
+.vscode/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Windows build files
+backprop.egg-info/
+
+# Test results
+.pytest_cache/
