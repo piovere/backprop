@@ -7,9 +7,12 @@ class Neuron():
         self._bias = 1.0
     
     def predict(self, x):
-        o = self._weights.dot(x) + self._bias
+        o = self.net(x)
         return self.transfer(o)
     
+    def net(self, x):
+        return self._weights.dot(x) + self._bias
+
     def transfer(self, x):
         # return np.exp(x) / (np.exp(x) + 1)
         return x
