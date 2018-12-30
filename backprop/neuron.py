@@ -17,6 +17,10 @@ class Neuron():
         # return np.exp(x) / (np.exp(x) + 1)
         return x
     
+    def transfer_derivative(self, x):
+        # return self.transfer(x) * (1 - self.transfer(x))
+        return 1
+    
     def error(self, x, y):
         return y - self.predict(x)
 
