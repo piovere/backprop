@@ -14,7 +14,7 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# Windows build files
+# Build files
 backprop.egg-info/
 
 # Test results
